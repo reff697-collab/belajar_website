@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NameCard</title>
+    <style>
+        *{
+           padding: 0;
+           margin: 0;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .wrapper{
+            background-color: rgb(35, 54, 255);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            background-color: rgb(255, 255, 255);
+            padding: 40px 50px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+        }
+        
+        .box>h2{
+            margin-bottom: 10px;
+        }
+
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">
+            <h1>Rafius</h1>
+            <h2>Junior Developer</h2>
+            <div class="item">
+                <ul>
+                    <li>
+                        <img src="aset/mail.svg" alt="mail">
+                        <span>rafius@gmail.com</span>
+                    </li>
+                    <li>
+                        <img src="aset/phone.svg" alt="asd">
+                        <span>+62 85896904814</span>
+                    </li>
+                    <li>
+                        <img src="aset/earth.svg" alt="asd">
+                        <span>rafius.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
